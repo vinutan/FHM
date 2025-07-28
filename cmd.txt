@@ -1,0 +1,4 @@
+hostname
+uname -a
+ps -ef | grep tibco | grep -v grep
+df -h /apps/tibco

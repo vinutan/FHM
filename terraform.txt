@@ -1,0 +1,17 @@
+1.	SSH as cloud-user@xsnl62f189w.pharma.aventis.com  (use SSH key attached)
+2.	sudo su -
+3.	su - gitlab-runner
+4.	source ~/proxy.env
+5.	cd build
+6.	edit locals in terragrunt.hcl file 
+locals {
+  ships-platform      = "axway"
+  ships-region        = "eu-west-1"
+  ships-env           = "PROD"
+  ships-name          = ["xsnl62f231c", "xsnl62f235k"]  // put in the Server Names into this field
+  ships-az            = ["eu-west-1a", "eu-west-1b"]         // # of AZ’s should match # of server names…. 
+}
+7.	run the following commands
+a.	terragrunt init
+b.	terragrunt plan
+c.	terragrunt apply

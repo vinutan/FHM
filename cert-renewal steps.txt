@@ -1,0 +1,18 @@
+step 1:  to raise request for renewal
+
+under C:\AWS-CertRepo\ 
+right click and run Git bash
+
+git -c http.sslVerify=false clone https://E0299370@emea-aws-gitlab.sanofi.com:3001/integrationservices/certificates.git
+
+enter and provide the psswd.
+
+openssl req -sha256 -new -key C:\Cert_Work\key\xsnw50p894p.key -out C:\Cert_Work\csr\xsnw50p894p.csr -batch -subj "/C=FR/ST=EMEA/L=MARCOUSSIS/O=Sanofi/OU=ITS/CN=xsnw50p894p.pharma.aventis.com"
+
+
+set RANDFILE=.rnd 
+
+PgNfcw3z0ddcvoFT0SDI
+
+
+eu-bw06lt.pharma.aventis.com - HR_COSTCENTERS_SHIFT 

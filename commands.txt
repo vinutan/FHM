@@ -1,0 +1,33 @@
+
+
+
+
+keytool -importcert -trustcacerts -alias sanofi-aventis_Technical_CA -file /home/s001462a/source/sanofi-aventis_Technical_CA.cer -keystore /apps/tibco/BW04P/tibcojre64/1.8.0/lib/security/cacerts
+
+keytool -importcert -trustcacerts -alias sanofi-aventis_Root_CA -file /home/s001461a/source/sanofi-aventis_Root_CA.cer -keystore /apps/tibco/BW04T/tibcojre64/1.8.0/lib/security/cacerts
+
+
+keytool -importcert -trustcacerts -alias sanofi-aventis_Technical_CA -file /home/s001461a/source/sanofi-aventis_Technical_CA.cer -keystore /apps/tibco/BW04T/tibcojre64/1.8.0/lib/security/cacerts
+
+keytool -v -list -keystore D:\tibco\tibcojre64\1.7.0\lib\security\cacerts -storepass changeit | find "Owner: CN=Sanofi_Technical_CA, O=Sanofi, C=FR"
+
+keytool -v -list -keystore D:\tibco\tibcojre64\1.7.0\lib\security\cacerts -storepass changeit | find "Owner: CN=Sanofi_Root_CA, O=Sanofi, C=FR"
+
+
+	keytool -list -v -keystore D:\tibco\tibcojre64\1.7.0\lib\security\cacerts -alias grep | "sanofi" 
+
+/home/s001462a/source
+
+
+export PATH=$PATH:/apps/tibco/BW04P/tibcojre64/1.8.0/bin
+
+
+keytool -list -keystore /apps/tibco/BW04I/tibcojre64/1.8.0/lib/security/cacerts -alias sanofi-aventis_Root_CA -v -storepass changeit
+
+/apps/tibco/BW04I/tibcojre64/1.8.0/bin
+
+/apps/tibco/BW04T/tibcojre64/1.8.0/lib/security
+
+keytool -list -keystore /apps/tibco/BW04I/tibcojre64/1.8.0/lib/security/cacerts -alias sanofi-aventis_Technical_CA -v -storepass changeit
+
+

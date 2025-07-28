@@ -1,0 +1,20 @@
+xsnl11c146b
+
+command1-
+for i in `cat servers.txt`;do scp backup.sh pu107176@$i:/home/pu107176/;done
+
+command2-
+
+for i in `cat servers.txt`;do ssh -q pu107176@$i /home/pu107176/backup.sh ITS-CHG0255986;done
+
+
+for i in `cat servers.txt`;do ssh pu107176@$i  /home/pu107176/backup.sh ;done
+
+for i in `cat servers.txt`;do ssh -q pu107176@$i ls -ltr  /tmp/ITS-CHG0253776_bkp ;done
+
+
+yes
+
+./backup.sh ITS-CHG0245286
+
+XSNW10T305C - Process Archive 

@@ -1,0 +1,30 @@
+<---------------------HRGD------------------>
+[tibhrgd@xsnl50c528w wand0]$ pwd
+/data/tibusrdata/hrgd/apptmp/wand0
+[tibhrgd@xsnl50c528w wand0]$ ll
+total 20
+drwxrwxr-x. 2 tibhrgd tibgroup 4096 Jun 24 13:26 done
+drwxrwxr-x. 2 tibhrgd tibgroup 4096 Jun 24 13:26 error
+drwxrwxr-x. 2 tibhrgd tibgroup 4096 Jun 24 13:27 in
+drwxrwxr-x. 2 tibhrgd tibgroup 4096 Jun 24 13:27 out
+drwxrwxr-x. 2 tibhrgd tibgroup 4096 Jun 24 13:27 work
+<---------------------HRGT------------------>
+[tibhrgt@xsnl50c530p wand0]$ pwd
+/data/tibusrdata/hrgt/apptmp/wand0
+[tibhrgt@xsnl50c530p wand0]$ ls -ltr
+total 20
+drwxrwxr-x. 2 tibhrgt tibgroup 4096 Jun 24 13:39 done
+drwxrwxr-x. 2 tibhrgt tibgroup 4096 Jun 24 13:39 error
+drwxrwxr-x. 2 tibhrgt tibgroup 4096 Jun 24 13:39 in
+drwxrwxr-x. 2 tibhrgt tibgroup 4096 Jun 24 13:39 out
+drwxrwxr-x. 2 tibhrgt tibgroup 4096 Jun 24 13:40 work
+ <---------------------HRGP------------------>
+/data/tibusrdata/hrgp/apptmp/wand0
+[tibhrgp@xspl11b346s wand0]$ ls -ltr
+total 20
+drwxrwxr-x 2 tibhrgp tibgroup 4096 Jun 24 13:44 done
+drwxrwxr-x 2 tibhrgp tibgroup 4096 Jun 24 13:44 error
+drwxrwxr-x 2 tibhrgp tibgroup 4096 Jun 24 13:44 in
+drwxrwxr-x 2 tibhrgp tibgroup 4096 Jun 24 13:45 out
+drwxrwxr-x 2 tibhrgp tibgroup 4096 Jun 24 13:45 work
+

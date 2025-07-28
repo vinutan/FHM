@@ -1,0 +1,45 @@
+    git config http.sslVerify false 
+
+    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+raise request for csr
+once recive the mail form cleint we need to generate p12 file
+needto udate in git those files and move to old
+browse the JKs file and update correcspodning p12 files
+then come to tibco folder and update those
+
+git pull command should be done before moving the file to old directories.
+
+openssl pkcs12 -export -inkey C:\Certifacate_work\certificates\certificates\PRD\key\xspl50s863a.key -in C:\mylocal_certifcate\pem\xspl50s863a.pem -out C:\mylocal_certifcate\P12\xspl50s863a.p12 -name xspl50s863a
+
+PgNfcw3z0ddcvoFT0SDI
+
+	
+openssl pkcs12 -export -inkey C:\Users\E0299370\Desktop\key\certificates_UAT_key_xsnl50t077a.key -in C:\Users\E0299370\Desktop\cert-077a\eu-bw11l13t.pharma.aventis.com.pem -out C:\Users\E0299370\Desktop\cert-077a\xsnl50t077a.p12 -name xsnl50t077a
+
+openssl pkcs12 -export -inkey C:\Certifacate_work\certificates\certificates\INT\key\xsnl50s779s.key -in C:\mylocal_certifcate\pem\xsnl50s779s.pem -out C:\mylocal_certifcate\P12\xsnl50s779s.p12 -name xsnl50s779s
+
+openssl pkcs12 -export -inkey C:\Certifacate_work\certificates\certificates\INT\key\xsnl50s675b.key -in C:\mylocal_certifcate\pem\xsnl50s675b.pem -out C:\mylocal_certifcate\P12\xsnl50s675b.p12 -name xsnl50s675b
+
+https://gitlab-its.sanofi.com/users/sign_in
+
+
+I have generated p12 file &
+Currently i have moved the old certificates from current folder to old in all directories except jks & kafka & tibco folder
+update JKS files in tibco and server.jks files
+place tthe certs in server
+ and run the below commands from git bash after logging in https://gitlab-its.sanofi.com/users/sign_in from browser
+git pull : 
+git add . : add all the changes to staging area
+git commit -m “message”
+git push
+git status
+
+
+
+C:\Users\E0299370\Documents\certificateRepo\certificates\certificates\UAT\jks
+
+
+
+
+
+

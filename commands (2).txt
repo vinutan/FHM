@@ -1,0 +1,31 @@
+AppManage -deploy -ear /tmp/Symphony_Sampling_MailOrderSub.ear -deployConfig /tmp/Symphony_Sampling_MailOrder.xml -app BW512/NAISRSC/Symphony/Symphony_Sampling_MailOrderSub -user x005489a -pw Sanofi@123 -domain NATIB2-PRD
+
+AppManage -deploy -ear /tmp/Symphony_Sampling_MailOrderSub.ear -deployConfig /tmp/Symphony_Sampling_MailOrder.xml -app BW512/NAISRSC/Symphony/Symphony_Sampling_MailOrderSub -user x005489a -pw Sanofi@123 -domain NATIB2-PRD
+
+AppManage -export -out tmp/temp/Symphony_Sampling_MailOrderSub.xml -genEar -ear /tmp/Symphony_Sampling_MailOrderSub.ear -app BW512/NAISRSC/Symphony/Symphony_Sampling_MailOrderSub -user x005489a -pw Sanofi@123 -domain NATIB2-PRD
+
+************************************************************************BW6**********************************************************************************
+bwadmin upload -d RCMIntP-DOMAIN -path RCMIntP-AS1 /NAISRSC_TIBCO/dev/tmp/RCMIntegrationDSS.application_1.4.0.ear 
+
+bwadmin deploy -d RCMIntP-DOMAIN -a RCMIntP-AS1 -pf /NAISRSC_TIBCO/dev/tmp/DSS_PROD.substvar RCMIntP-AS1/RCMIntegrationDSS.application_1.4.0.ear
+
+
+
+
+ permission bin folder
+ sleep time in status check 120ms
+ 
+ 15min,30 min ke liye chalana he
+ */15 30 * * *
+ xsnl50b630t.pharma.aventis.com is working
+ 
+ 
+ 
+ 
+REQ #: REQ000006720063
+
+
+ REQ000006721515
+
+
+
