@@ -1,0 +1,86 @@
+
+\\xspw50a595k.pharma.aventis.com\password_management\TIBCO
+__TibcoCim__2021!
+5Ct01M450w3m
+__AZ_TIBCO-2021!
+
+PU129306
+Wadegaon@1234567
+
+  
+ tcp://eme1-emshrgp1.pharma.aventis.com:9094,
+
+
+Karthik - PU130355
+Advaith@2018
+e0513593
+
+eu-bw04l02p.pharma.aventis.com
+find /home -name *.jpg
+
+find /home -name *.jpg
+
+e0526504/PU138220 
+
+net start PDWV.interfaceMDS_MLE.Interface MDS MLE
+PHARMA\S000060A
+tibadm  
+Ams@uat
+
+Sanofi Technical CA
+Sanofi Root CA
+
+PU129306
+
+Wadegaon@123456
+
+https://bastion-emea.sanofi.com
+https://bastion-emea.sanofi.com/PasswordVault/v10/Classic/myaccounts.aspx
+sahadeva.sankarapu2@sanofi.com/Sanofi12
+
+keytool -list -keystore /software/tibco/stait/ae5/tibcojre/1.6.0/lib/security/cacerts -storepass changeit
+
+PgNfcw3z0ddcvoFT0SDI
+password123
+password
+P@s$WorD
+MHI
+changeit
+sE@*Q1~S27.T*3
+P@s$WorD
+
+
+******************************************************************************
+
+/software/tibco/staip/ae5/tibcojre/1.6.0/lib/security/cacerts
+
+
+keytool -import -alias eme1-bwt04 -keystore /software/tibco/aist/ae5/administrator/domain/aist/SSL/keystore -file /software/tibco/aist/ae5/administrator/domain/aist/SSL/eme1-bwt04.pem
+
+keytool -import -alias SanofiTechnicalCA -keystore /software/tibco/staip/ae5/tibcojre/1.6.0/lib/security/cacerts -file /tmp/SanofiTechnicalCA.pem
+
+openssl req -new -newkey rsa:2048 -nodes -keyout /tmp/191c/eme1-bwt04.key -out /tmp/191c/eme1-bwt04.csr -batch -subj "/C=FR/ST=EMEA/L=-MARCOUSSIS/O=Sanofi/OU=ITS/CN=eme1-bwt04.pharma.aventis.com"
+
+***********************************************************
+export DISPLAY=127.0.0.1:10.0
+
+remoteExecutionTool.exe server.txt cmd.txt
+kpSearchTool.exe server.txt \\Xspw50a595k\password_management\TIBCO\TIBCO.kdbx
+
+Gitlab url down-
+1. Restart apache 2.4 on server -XSPW50A293X
+2. login portainer - http://xspl50s398f:9000/#/stacks/gitlab?id=25&type=2&external=false
+and restart gitlab service if its unhealthy under stack folder
+
+
+terraform script
+ansible script 
+architecture
+Ldap config
+application deploy
+appspace/appnode creation
+application domain
+File system creation
+Monitoring Tibco services
+Capacity management
+

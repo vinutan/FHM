@@ -1,0 +1,74 @@
+Queue - queue.njams3.prod.eutib03.tfactory.event
+
+
+tcp://eu-pm01p.pharma.aventis.com:9014,tcp://eu-pm02p.pharma.aventis.com:9014
+
+
+tcp://eu-pm01p.pharma.aventis.com:9014 - Primary
+
+
+tcp://eu-pm02p.pharma.aventis.com:9014 - standby
+
+
+
+eu-pm01p.pharma.aventis.com
+
+
+
+eu-pm02p.pharma.aventis.com
+
+
+
+>login to RDP - eu-pm01p.pharma.aventis.com - is a windows server
+
+
+
+>open task manager -- >performance tab -- > check the CPU Usage % if high beyond threshold 90% and Physical memory full or almost full?
+
+
+
+>open task manager -- >process tab - sort by cpu/Memory - check which application is consuming high cpu usage
+
+
+
+e.g. if tomcat7.exe - application is on high usage - go to services.msc and find apache-tomcat-7.0.63 -- > stop and start
+
+
+
+>start -- > services.msc --- > apache-tomcat-7.0.63 -- >stop & start
+
+
+
+>start -- > services.msc --- > Tibco hawkagent_GISEAI-EU -- >stop & start
+
+
+
+>start -- > services.msc --- > Tibco EMS Server -- >stop & start
+
+
+
+>check ems logs -- > D:\emslogs\log --- > open logfile in notepad and check if there are any latest error messages.
+
+
+
+>open cmd in search window once you are in the location path D:\tibco\ems\8.2\bin
+
+
+
+>type - tibemsadmin.exe --> enter
+
+
+
+>c tcp://eu-pm01p.pharma.aventis.com:9014
+>provide credentials - username and passward from Keepass
+> once connected
+>to check if its active type i and execute
+> for database details type db and execute
+> to show queues - type show queues and execute
+> to purge - type purge queue queue name (post approval only we need to purge the messages in queue)
+> after this disconnect and exit from the cmd
+
+
+
+
+Majorly we need to monitor this queue "queue.njams3.prod.eutib03.tfactory.event" --> if there are any high pending messages in the queue.

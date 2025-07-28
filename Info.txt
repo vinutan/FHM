@@ -1,0 +1,46 @@
+
+\\xspw50a595k.pharma.aventis.com\password_management\TIBCO
+5Ct01M450w3m
+__AZ_TIBCO-2021!
+
+PU129306
+
+Wadegaon@123456
+
+Advaith@2018
+Advaith@2018
+Karthik - PU130355
+
+eu-bw04l02p.pharma.aventis.com
+find /home -name *.jpg
+
+find /home -name *.jpg
+
+e0526504
+
+
+  tibadm  
+Ams@uat
+
+Sanofi Technical CA
+Sanofi Root CA
+
+PU129306
+
+Wadegaon@123456
+
+
+255.255.248.0
+
+/software/tibco/stait/ae5/tibcojre/1.6.0/lib/security
+
+keytool -list -keystore /software/tibco/stait/ae5/tibcojre/1.6.0/lib/security/cacerts -storepass changeit
+
+
+-keystore /software/tibco/staip/ae5/tibcojre/1.6.0/lib/security/cacerts -file /tmp/SanofiTechnicalCA.pem
+
+export DISPLAY=255.255.248.0:10.0
+
+127.0.0.1:0.0
+
+export DISPLAY=127.0.0.1:10.0
